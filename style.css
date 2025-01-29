@@ -9,7 +9,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 12px 200px;
+  padding: 15px 300px;
 }
 
 .logo {
@@ -24,7 +24,7 @@ body {
   display: flex;
   margin: 0;
   padding: 0;
-  gap: 70px;
+  gap: 60px;
   font-size: 18px;
   color: #e5e7eb;
 }
