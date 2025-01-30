@@ -1,22 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* Colors and font styles */
+:root {
+  --font-used: "Roboto", serif;
+  --dark-color: #1F2937;
+  --hero-main-text-size: 48px;
+  --hero-main-text-color: #F9FAF8;
+  --hero-main-text-weight: 900;
+  --hero-secondary-text-size: 18px; 
+  --hero-secondary-text-color: #E5E7EB; 
+  --header-link-text-size: 18px; 
+  --header-link-text-color: #E5E7EB; 
+  --header-logo-text-size: 24px;
+  --header-logo-text-color: #F9FAF8;
+  --accent-color: #3882F6;
+  --information-text-size: 36px;
+  --information-text-color: #1F2937;
+  --information-text-weight: 900;
+  --quote-bg-color: #E5E7EB;
+  --quote-text-size: 36px;
+  --quote-text-color: #1F2937;
+  --quote-text-weight: light;
+  --quote-text-style: italic;
+}
+
 body {
-  font-family: Roboto, serif;
+  font-family: var(--font-used);
 }
 
 .header {
-  background-color: #1f2937;
+  background-color: var(--dark-color);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 15px 300px;
+  padding: 15px 200px;
 }
 
 .logo {
   display: flex;
-  color: #f9faf8;
-  font-weight: 600;
-  font-size: 24px;
+  color: var(--header-logo-text-color);
+  font-size: var(--header-logo-text-size);
   padding: 0;
   margin: 0;
 }
@@ -25,15 +48,61 @@ body {
   display: flex;
   margin: 0;
   padding: 0;
-  gap: 60px;
-  font-size: 18px;
-  color: #e5e7eb;
+  gap: 70px;
+  font-size: var(--header-link-text-size);
+  color: var(--header-link-text-color);
 }
 
 .nav-links li {
   margin: 0;
 }
 a {
-  color: #e5e7eb;
+  color: var(--header-link-text-color);
 }
 
+.hero-section {
+  gap: 70px;
+  display: flex;
+  background-color: var(--dark-color);
+  padding: 100px 200px;
+  justify-content: space-between;
+}
+
+.hero-statement {
+  height: 300px;
+  flex: 1;
+  flex-direction: column;
+}
+
+.hero-statement .main-text {
+  color: var(--hero-main-text-color);
+  font-size: var(--hero-main-text-size);
+  font-weight: var(--hero-main-text-weight);
+}
+
+.hero-statement .secondary-text {
+  color: var(--hero-secondary-text-color);
+  font-size: var(--hero-secondary-text-size);
+}
+
+.hero-section button {
+  align-self: flex-start;
+  background-color: var(--accent-color);
+  color: var(--header-link-text-color);
+  padding: 8px 30px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 15px;
+  font-size: var(--hero-secondary-text-size);
+  font-weight: 700;
+}
+
+.hero-image {
+  flex: 1;
+}
+
+.hero-image img {
+  width: 600px;
+  height: 250px;
+  object-fit: cover;
+}
