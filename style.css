@@ -9,10 +9,12 @@
   --hero-main-text-weight: 900;
   --hero-secondary-text-size: 18px; 
   --hero-secondary-text-color: #E5E7EB; 
+  --hero-secondary-text-weight: 300;
   --header-link-text-size: 18px; 
   --header-link-text-color: #E5E7EB; 
   --header-logo-text-size: 24px;
   --header-logo-text-color: #F9FAF8;
+  --header-logo-text-weight: 700;
   --accent-color: #3882F6;
   --info-header-text-size: 36px;
   --info-header-text-color: #1F2937;
@@ -42,6 +44,7 @@ body {
   display: flex;
   color: var(--header-logo-text-color);
   font-size: var(--header-logo-text-size);
+  font-weight: var(--header-logo-text-weight);
   padding: 0;
   margin: 0;
 }
@@ -88,6 +91,7 @@ a {
 .hero-statement .secondary-text {
   color: var(--hero-secondary-text-color);
   font-size: var(--hero-secondary-text-size);
+  font-weight: var(--hero-secondary-text-weight);
 }
 
 .hero-section button {
