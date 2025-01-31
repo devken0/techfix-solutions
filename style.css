@@ -116,11 +116,12 @@ a {
 
 .info-section {
   margin-top: 40px;
+  margin-bottom: 50px;
 }
 
 .info-title {
   text-align: center;
-  margin: 0 auto 40px;
+  margin: 0 auto 50px;
   font-size: var(--info-header-text-size);
   font-weight: var(--info-header-text-weight);
   color: var(--info-header-text-color);
@@ -129,7 +130,7 @@ a {
 .info-cards-ct {
   display: flex;
   justify-content: center;
-  gap: 40px;
+  gap: 50px;
 }
 
 .info-card {
