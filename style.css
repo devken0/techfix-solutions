@@ -187,4 +187,51 @@ a {
 
 /* CTA */
 
+.cta-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;;
+  padding: 120px 200px;
+}
+
+.cta-flex-ct {
+  background-color: var(--accent-color);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+  padding: 50px 130px;
+}
+
+.cta-statement .main-text {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--hero-main-text-color);
+}
+
+.cta-statement .secondary-text {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--hero-secondary-text-color);
+}
+
+.cta-flex-ct div button {
+  margin-top: 10px;
+  padding: 10px 30px;
+  border-radius: 8px;
+  background-color: var(--accent-color);
+  border-color: white;
+  font-weight: 700;
+  color: var(--header-logo-text-color);
+  font-size: 18px;
+}
+
 /* FOOTER */
+
+.footer {
+  background-color: var(--dark-color);
+  color: var(--hero-secondary-text-color);
+  text-align: center;
+  padding: 40px;
+  font-size: 18px;
+}
