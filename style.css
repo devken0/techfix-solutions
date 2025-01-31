@@ -20,7 +20,7 @@
   --quote-bg-color: #E5E7EB;
   --quote-text-size: 36px;
   --quote-text-color: #1F2937;
-  --quote-text-weight: light;
+  --quote-text-weight: 300;
   --quote-text-style: italic;
 }
 
@@ -116,7 +116,7 @@ a {
 
 .info-section {
   margin-top: 40px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 .info-title {
@@ -146,3 +146,41 @@ a {
   text-align: center;
   color: #5f6874;
 }
+
+/* TESTIMONIALS SECTION */
+
+.testimonials-section {
+  background-color: var(--quote-bg-color);
+  display: flex;
+  justify-content: center;
+}
+
+.quote-ct {
+  margin: 150px 350px;
+}
+
+.quote-text {
+  display: flex;
+}
+
+.quote-text span {
+  color: var(--quote-text-color);
+  font-weight: var(--quote-text-weight);
+  font-size: var(--quote-text-size);
+  font-style: var(--quote-text-style);
+}
+
+.quote-author {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.quote-author span {
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--quote-text-color);
+}
+
+/* CTA */
+
+/* FOOTER */
